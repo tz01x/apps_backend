@@ -8,6 +8,16 @@
 </head>
 <body>
     Hello
+
+    <ul class="giff_files">
+        {%for gif in gif_files%}
+        <li>
+            <img src="/static/{{gif}}" alt="">
+        </li>
+
+        {%endfor%}
+
+    </ul>
     
 </body>
 </html>

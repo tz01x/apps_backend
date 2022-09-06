@@ -117,6 +117,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = 'media/'
+
+STATICFILES_DIRS = [
+    BASE_DIR/'static'/'static_dir',
+    BASE_DIR/'jiff_maker'/'asset'/'jiffs',
+]
+
+
+STATIC_ROOT = BASE_DIR/'static'/'static_root'
+MEDIA_ROOT = BASE_DIR/'media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

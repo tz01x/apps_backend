@@ -29,7 +29,7 @@ build/
 develop-eggs/
 dist/
 downloads/
-download_videos/
+asset/
 eggs/
 .eggs/
 lib/
